@@ -1,4 +1,4 @@
-#N canvas 15 2 2560 1412 12;
+#N canvas 0 97 2560 1343 12;
 #X obj 1219 174 inlet;
 #X text 1263 173 density;
 #X obj 972 174 inlet;
@@ -26,7 +26,8 @@
 #X obj 733 635 f;
 #X obj 733 375 f 100;
 #X obj 796 337 t b f, f 18;
-#X text 937 607 if density updates also update the speed at which to play grains, f 25;
+#X text 937 607 if density updates also update the speed at which to
+play grains, f 25;
 #X text 767 636 time per grain in ms;
 #X obj 285 185 inlet;
 #X text 284 161 play;
@@ -63,10 +64,10 @@
 #X obj 733 573 *, f 8;
 #X obj 754 509 t b f;
 #X obj 733 539 f;
-#X floatatom 852 671 5 0 0 0 - - - 0;
-#X floatatom 739 270 5 0 0 0 - - - 0;
-#X floatatom 817 552 5 0 0 0 - - - 0;
-#X floatatom 838 415 5 0 0 0 - - - 0;
+#X floatatom 852 671 5 0 0 0 - - -;
+#X floatatom 739 270 5 0 0 0 - - -;
+#X floatatom 817 552 5 0 0 0 - - -;
+#X floatatom 838 415 5 0 0 0 - - -;
 #X obj 469 981 line~;
 #X msg 469 957 \$1 10;
 #X obj 543 1008 *~;

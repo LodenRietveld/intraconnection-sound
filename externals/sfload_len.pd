@@ -9,7 +9,7 @@
 #X obj 453 145 t b b b b b, f 67;
 #X obj 422 335 t b f;
 #N canvas 1148 141 450 300 \$0-len 0;
-#X scalar sflen 1.42107e+06 \;;
+#X scalar sflen 9.024e+06 \;;
 #X restore 569 84 pd \$0-len;
 #X obj 919 206 s pd-\$0-len;
 #X obj 802 176 \$0;
@@ -30,8 +30,8 @@
 #X restore 998 95 pd sflen;
 #X obj 454 369 set sflen length;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array \$2 1.42107e+06 float 2;
-#X coords 0 1 1.42107e+06 -1 200 140 1 0 0;
+#X array \$2 9.024e+06 float 2;
+#X coords 0 1 9.024e+06 -1 200 140 1 0 0;
 #X restore 0 52 graph;
 #X obj 453 119 loadbang;
 #X connect 0 0 1 0;
@@ -59,4 +59,4 @@
 #X connect 19 0 0 0;
 #X connect 20 0 19 0;
 #X connect 25 0 6 0;
-#X coords -1 1 1 65 200 192 1 0 0;
+#X coords 0 576 1 575 200 192 0;
